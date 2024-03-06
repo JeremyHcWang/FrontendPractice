@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Life Table</title>
+  <style>
+    table, td {
+        border: 1px solid;
+        text-align: center;
+    }
+
+    tr {
+      height: 70px;
+      font-size: 20px;
+    }
+
+    table {
+      width: 40%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .button-cell {
+      color:blue;
+      background-color: blanchedalmond;
+    }
+
+    .button-cell:hover {
+      cursor: pointer;
+      background-color: aquamarine;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <tr>
+      <td class="button-cell" colspan="4"><h1>LIFE</h1></td>
+    </tr>
+    <tr>
+      <td class="button-cell" colspan="2" onclick="window.location.href='https://www.google.com';";>Google</td>
+      <td class="button-cell" colspan="2" onclick="window.location.href='https://www.github.com';">GitHub</td>
+    </tr>
+    <tr>
+      <td class="button-cell" colspan="1" onclick="window.location.href='https://www.facebook.com';">FB</td>
+      <td class="button-cell" colspan="1" onclick="window.location.href='https://www.gmail.com';">Gmail</td>
+      <td class="button-cell" colspan="1" onclick="window.location.href='https://www.youtube.com';">YouTube</td>
+      <td class="button-cell" colspan="1" onclick="window.location.href='https://play2048.co/';">2048</td>
+    </tr>
+    <tr>
+      <td class="button-cell" colspan="1" onclick="window.location.href='https://www.food.com';">Food</td>
+      <td class="button-cell" colspan="2" onclick="window.location.href='https://www.ign.com';">Game</td>
+      <td colspan="1">
+        <table style="width: 90%;">
+          <tr>
+            <td class="button-cell" colspan="4" onclick="window.location.href='https://www.instagram.com';">Social Life</td>
+          </tr>
+          <tr>
+            <td class="button-cell" colspan="4" onclick="window.location.href='https://soundcloud.com/soothingrelaxation';">Sleep</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td class="button-cell" colspan="3" onclick="window.location.href='https://www.sapporobeer.com/';">Beer</td>
+      <td class="button-cell" colspan="1" onclick="window.location.href='https://www.google.com';">WC</td>
+    </tr>
+  </table>
+</body>
+</html>
